@@ -26,7 +26,7 @@ class ScrapeMe:
     If the software suddenly crushes, you can simply restart it:
     it wont reload pages that has been already visited.
     
-    DISCLAIMER: This is for didactit pourpose only!
+    DISCLAIMER: This is for didactit purpose only!
     """
     def __load_page__(self, soup, page_num):
         """
