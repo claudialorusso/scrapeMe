@@ -385,7 +385,7 @@ sc.create_DB()
 winsound.Beep(440, 1000)
 """
 
-if os.path.isfile("Utils\laws_link.txt") or os.stat("Utils\laws_link.txt").st_size != 0:
+if os.path.isfile("Utils\laws_link.txt") and os.stat("Utils\laws_link.txt").st_size != 0:
     link_file = open('Utils\laws_link.txt', 'r')
     link_list = link_file.read().splitlines()
     link_file.close()
