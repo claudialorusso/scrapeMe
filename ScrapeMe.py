@@ -24,7 +24,7 @@ class ScrapeMe:
     (laws and regulaments) from "Consiglio Regionale della Puglia"s web page,
     using BeautifulSoup.
     If the software suddenly crushes, you can simply restart it:
-    it wont reload pages that has been already visited.
+    it wont reload pages that had been already visited.
     
     DISCLAIMER: This is for didactit purpose only!
     """
